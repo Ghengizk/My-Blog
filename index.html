@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legendary Blog</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Lora', serif;
+            background-color: #2b1b0e;
+            color: #f4e1c4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #8a4b28, #b7563c, #d67843);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin: 0;
+            font-family: 'Cinzel', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3e2618;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #f4e1c4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: 'Cinzel', serif;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d67843;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            color: #d67843;
+            margin-bottom: 20px;
+            font-family: 'Cinzel', serif;
+        }
+
+        footer {
+            background-color: #3e2618;
+            color: #f4e1c4;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .persian-touch {
+            border: 2px solid #8a4b28;
+            padding: 15px;
+            border-radius: 5px;
+            background-image: url('persian_pattern.jpg'); /* Add Persian art texture */
+            background-size: cover;
+            color: #fff;
+        }
+
+        .persian-touch h2, .persian-touch p {
+            background-color: rgba(43, 27, 14, 0.8);
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Legendary Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#trends">Current Trends</a>
+        <a href="#poetry">Poetry</a>
+        <a href="#articles">Articles</a>
+        <a href="#humor">Humor</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="persian-touch">
+            <h2>About Me</h2>
+            <img src="about_me_image.jpg" alt="About Me">
+            <p>Welcome to my blog! I am an enthusiast of timeless stories, heartfelt poetry, and cultural beauty. Join me as I explore the world through words.</p>
+        </section>
+
+        <section id="trends">
+            <h2>Current Trends</h2>
+            <img src="current_trends_image.jpg" alt="Current Trends">
+            <p>Stay updated on the latest happenings in the world of literature, culture, and arts.</p>
+        </section>
+
+        <section id="poetry" class="persian-touch">
+            <h2>Poetry</h2>
+            <img src="poetry_image.jpg" alt="Poetry">
+            <p>Immerse yourself in the rhythm of verses inspired by Persian aesthetics and universal emotions.</p>
+        </section>
+
+        <section id="articles">
+            <h2>Articles</h2>
+            <img src="articles_image.jpg" alt="Articles">
+            <p>Dive deep into thought-provoking articles on topics that matter in the realms of humanity and art.</p>
+        </section>
+
+        <section id="humor">
+            <h2>Humor</h2>
+            <img src="humor_image.jpg" alt="Humor">
+            <p>Enjoy lighthearted content that brings a smile to your face amidst life’s chaos.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Legendary Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
